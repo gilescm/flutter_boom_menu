@@ -187,7 +187,7 @@ class _BoomMenuState extends State<BoomMenu> with SingleTickerProviderStateMixin
   Widget _renderOverlay() {
     return Positioned(
       right: -16.0,
-      bottom: -48.0,
+      bottom: -96.0,
       top: _open ? 0.0 : null,
       left: _open ? 0.0 : null,
       child: GestureDetector(
