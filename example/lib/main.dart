@@ -25,7 +25,8 @@ class MyAppState extends State<MyApp> with TickerProviderStateMixin {
 
     scrollController = ScrollController()
       ..addListener(() {
-        setDialVisible(scrollController.position.userScrollDirection == ScrollDirection.forward);
+        setDialVisible(scrollController.position.userScrollDirection ==
+            ScrollDirection.forward);
       });
   }
 
@@ -91,7 +92,7 @@ class MyAppState extends State<MyApp> with TickerProviderStateMixin {
           backgroundColor: Colors.blue,
           onTap: () => print('FOURTH CHILD'),
         )
-      ]
+      ],
     );
   }
 
